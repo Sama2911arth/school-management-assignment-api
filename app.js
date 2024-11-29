@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
-const mysql = require('mysql2/promise');
+const mysql = require('mysql2');
 
 
 const dbConfig = new URL(process.env.DATABASE_URL);
